@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.opilane.proovimine.TutvustusMain2Activity"
+    android:background="#f9ae88">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tagasi"
+        android:id="@+id/tagasi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tagasi"
+        android:layout_marginTop="30dp"
+        android:text="Tallinna vanalinna eriline väärtus seisneb eelkõige tänaseni püsinud keskaegses miljöös ja struktuuris, mis on teistest Põhja-Euroopa pealinnadest kadunud. Tallinna vanalinnas on peaaegu terviklikult olemas 11.–15. sajandil välja kujunenud tänavate võrk ja kruntide piirid ning massiliselt 14. ja 15. sajandil püstitatud ja esialgsetes gabariitides säilinud hooneid."
+        android:textColor="#761e35"/>
+
+
+
+
+</RelativeLayout>

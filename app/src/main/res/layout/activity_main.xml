@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.opilane.proovimine.MainActivity">
+
+    <TextView
+        android:id="@+id/Vanalinn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vanalinn"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/Pildid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Vanalinn"
+        android:onClick="Pildid"
+        android:text="Pildid" />
+
+    <Button
+        android:id="@+id/Vanalinnlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Pildid"
+        android:text="Vanalinn link" />
+
+    <Button
+        android:id="@+id/Vanalinnatutvustus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Vanalinnlink"
+        android:text="Vanalinna tutvustus"
+        android:onClick="Tutvustus"/>
+
+</RelativeLayout>
